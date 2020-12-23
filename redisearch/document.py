@@ -14,4 +14,4 @@ class Document(object):
 
     def __repr__(self):
 
-        return 'Document %s' % self.__dict__
+        return self.__dict__
