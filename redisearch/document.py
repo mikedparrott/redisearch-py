@@ -11,7 +11,5 @@ class Document(object):
         self.payload = payload
         for k, v in six.iteritems(fields):
             setattr(self, k, v)
-
-    def __repr__(self):
-
-        return self.__dict__
+            
+   return self.__dict__
