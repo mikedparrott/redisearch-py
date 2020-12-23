@@ -13,4 +13,4 @@ class Document(object):
             setattr(self, k, v)
     def __repr__(self):
 
-        return self
+        return str(self)
