@@ -12,4 +12,4 @@ class Document(object):
         for k, v in six.iteritems(fields):
             setattr(self, k, v)
             
-   return self.__dict__
+        return self.__dict__
